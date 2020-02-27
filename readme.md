@@ -8,21 +8,13 @@
  - Based on https://dev.to/santypk4/bulletproof-node-js-project-architecture-4epf
   
 ## Project Structure
-  src
-  │   app.js           App entry point
-  
-  └───websocket       # Routes for websocket endpoints and routes
-
-  └───config          # Environment variables and configuration related stuff
-
-  └───jobs            # Jobs definitions 
-
-  └───loaders         # Split the startup process into modules
-
-  └───models          # Database models
-
-  └───services        # All the business logic is here
-
-  └───subscribers     # Event handlers for async task
-
-  └───types           # Type declaration files (d.ts) for Typescript
+    src
+    │   app.js           App entry point
+    └───websocket       # Routes for websocket endpoints and routes
+    └───config          # Environment variables and configuration related stuff
+    └───jobs            # Jobs definitions 
+    └───loaders         # Split the startup process into modules
+    └───models          # Database models
+    └───services        # All the business logic is here
+    └───subscribers     # Event handlers for async task
+    └───types           # Type declaration files (d.ts) for Typescript
