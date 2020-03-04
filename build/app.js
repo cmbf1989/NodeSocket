@@ -49,7 +49,7 @@ var db = dataSource.init({ host: "127.0.0.1", user: "root", database: "test", pa
         switch (_a.label) {
             case 0:
                 _a.trys.push([0, 2, , 3]);
-                return [4 /*yield*/, db.query("SELECT user.*, user_type.name FROM user JOIN user_type ON user.type_id = user_type.id LIMIT 1", null)];
+                return [4 /*yield*/, db.query("SELECT user.*, user_type.name FROM user JOIN user_type ON user.type_id = user_type.id ", null)];
             case 1:
                 data = _a.sent();
                 end = new Date();
