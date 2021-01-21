@@ -9,7 +9,7 @@
     "http": "0.0.0",
     "mysql": "^2.18.1",
     "promisify": "^0.0.3",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "typescript": "^3.8.2",
     "util": "^0.12.1"
   },
